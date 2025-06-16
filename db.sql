@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS aforo;
+USE aforo;
+
+CREATE TABLE IF NOT EXISTS registros (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    evento VARCHAR(100),
+    hora_entrada DATETIME
+);
